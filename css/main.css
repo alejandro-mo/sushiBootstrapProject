@@ -1,3 +1,12 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    padding: .8rem;
+}
 nav {
     background-color: #ff8080;
 }
@@ -11,6 +20,13 @@ p.navbar-text {
     font-weight: bold;
     
 }
+/* carousel/header section  */
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+}
+
 /* Took me awhile to figure out how to change the coloring of the carousel-indicators but figured it out by checking stackoverflow */
 ul.carousel-indicators li.active {
     background-color: yellow!important;
@@ -19,26 +35,83 @@ ul.carousel-indicators li {
     background-color: black;
 }
 .carousel-caption {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.6);
     padding-bottom: 6%;
     margin-bottom: 10%;
     top: 50%;
     transform: translateY(-50%);
     bottom: initial;
 }
+/* about section  */
+.jumbotron {
+    padding: 5% 0 5% 0;
+}
+
+#about2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 .fas, .far {
     font-size: 2rem;
 }
+/* sushi pictures section  */
 #sushi1, #sushi2 {
     background-color: #ff8080;
-    ;
+    padding-top: 3%;
     color: white;
-
 }
-
+/* artist section  */
+#artistHeader {
+    padding-top: 3%;
+}
+#artistSection {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+/* the way i found so far to cover and give all 3 cards a equal height I gave them  the following attributes and values. But I'm still having a problem with the images when the screen gets smaller the images move/zoom, still looking for an answer */
 .card-img-top {
     width: 100%;
     height: 35vw;
     object-fit: cover;
     object-position: center;
 }
+/* Review section! */
+#reviewHeader {
+    background-color: #E9ECEF;
+    height: 200px;
+    padding-top: 6%;
+}
+#reviews {
+    height: 600px;
+    background-color: #E9ECEF;
+    padding-top: 11%;
+    padding-left: 7%;
+    margin-bottom: 5px;
+   
+}
+/* contact section 
+ */
+ #contact {
+     height: 400px;
+     width: 100%;
+
+ }
+form {
+    margin: 5% auto; 
+    width: 80%;
+    text-align: center
+}
+div input {
+    margin-bottom: 15px;
+}
+
+
+
+footer {
+    color: white;
+}
+
+
+
+
+ 
