@@ -3,7 +3,11 @@ html, body {
     width: 100%;
     font-family: 'Poppins', sans-serif;
 }
-
+hr {
+    color: black;
+    width: 70%;
+    border: solid 1px black;
+}
 .navbar {
     padding: .8rem;
 }
@@ -82,12 +86,10 @@ ul.carousel-indicators li {
     padding-top: 6%;
 }
 #reviews {
-    height: 600px;
+    height: 650px;
     background-color: #E9ECEF;
     padding-top: 11%;
-    padding-left: 7%;
-    margin-bottom: 5px;
-   
+    padding-left: 7%; 
 }
 /* contact section 
  */
@@ -104,14 +106,53 @@ form {
 div input {
     margin-bottom: 15px;
 }
-
-
-
+/* footer section 
+ */
 footer {
     color: white;
 }
 
-
+@media (max-width: 992px) {
+    .carousel-caption {
+        background-color: rgba(0,0,0,0.6);
+        top: 50%;    
+    }
+    .carousel-caption h1 {
+        font-size: 2.5rem;
+    }
+    .display-4 {
+        font-size: 300%;
+    }
+    .card {
+        min-height: 50%;
+    }
+}
+@media (max-width: 768px) {
+    .carousel-caption {
+        background-color: rgba(0,0,0,0.6);
+        top: 50%;    
+    }
+    .carousel-caption h1 {
+        font-size: 1.8rem;
+    }
+    .display-4 {
+        font-size: 200%;
+    }
+    .card-img-top {
+        width: 100%;
+        height: 65vw;
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 5%;
+    }
+    .card {
+        min-height: 50%;
+    }
+    
+}
+@media (max-width: 576px) {
+    
+}
 
 
  
