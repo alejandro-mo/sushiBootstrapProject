@@ -1,0 +1,44 @@
+nav {
+    background-color: #ff8080;
+}
+p.navbar-text {
+    color: #555!important;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.nav-item a {
+    color: white!important;
+    font-weight: bold;
+    
+}
+/* Took me awhile to figure out how to change the coloring of the carousel-indicators but figured it out by checking stackoverflow */
+ul.carousel-indicators li.active {
+    background-color: yellow!important;
+}
+ul.carousel-indicators li {
+    background-color: black;
+}
+.carousel-caption {
+    background-color: rgba(0,0,0,0.4);
+    padding-bottom: 6%;
+    margin-bottom: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+.fas, .far {
+    font-size: 2rem;
+}
+#sushi1, #sushi2 {
+    background-color: #ff8080;
+    ;
+    color: white;
+
+}
+
+.card-img-top {
+    width: 100%;
+    height: 35vw;
+    object-fit: cover;
+    object-position: center;
+}
